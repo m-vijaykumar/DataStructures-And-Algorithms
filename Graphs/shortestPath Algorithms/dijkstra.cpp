@@ -3,7 +3,7 @@
 #include<vector>
 #include<queue>
 #include<limits.h>
-#include"weightedGraph.hpp"
+#include"../weightedGraph.hpp"
 
 using namespace std;
 
@@ -81,7 +81,7 @@ void getShortestPath(weightedGraph g ,int x,int y){
         return ;
     }
     if(distance[y]==-1){
-        cout<<"no path to "<<x<<" from "<<x;
+        cout<<"no path from "<<x<<" to "<<y;
         return ;
     } 
     if(x==y) {
@@ -104,6 +104,7 @@ void getShortestPath(weightedGraph g ,int x,int y){
 int main(){
 
     weightedGraph g(5);
+    
     g.addEdge(0,1,4);
     g.addEdge(0,2,1);
     g.addEdge(2,1,2);
@@ -112,7 +113,7 @@ int main(){
     g.addEdge(3,4,4);
     g.display(); 
 
-   dijkstra(g,3,4);  //dijkstra( Graph , startingVertex ,endingVertex )
+   dijkstra(g,0,4);  //dijkstra( Graph , startingVertex ,endingVertex )
 
     return 0;
 }
