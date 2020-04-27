@@ -63,6 +63,6 @@ int main(){
     g.addEdge(1,0);
     g.addEdge(2,0);
     g.display(); 
-    findPath(4,8,g);//  ( stating address  ,ending address , graph )
+    findPath(4,0,g);//  ( stating Node  ,ending Node , graph )
     return 0;
 }
