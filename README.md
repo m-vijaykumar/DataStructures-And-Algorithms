@@ -5,11 +5,24 @@
 
 * Queues
 
+* Sorting Algorithms
+
+    * Bubble Sort
+
+    * Selection Sort
+
+    * Insertion Sort
+
+    * Shell Sort 
+
 * Linked List
     * Reversing Linked List
 
     * Sorting Linked List
+* Bit Manipulations
+    * Basic Operations
 
+    * manipulating bits
 * Trees
     * BST Tree
 
@@ -30,13 +43,33 @@
         * Dijkstra
 
         * Bellman-Ford
-* Strings
-    * String Premitations
-* vectors
+
 
 * Greedy Algorithms
 
-    * set method and find optimal solution
+    * Knapscak Problem
 
+
+* Dynamic Programming
+
+    * 01 Knapsack problem
+
+    * Grid Travelsal
+
+* Kadanes Algorithm
+
+
+* vectors
+
+* Strings
+    * String Premitations
+
+* others
+    * problems
+        * code chef problems
+
+        * matrix Rotation
+        
+        * spiral Matrix
 
 
