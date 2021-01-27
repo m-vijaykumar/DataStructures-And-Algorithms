@@ -19,8 +19,7 @@ bool check(char *memo ,int n,int y){
         {
             total -= i+2 ;
         }
-        
-        
+               
     }
     // cout<<total;
 
