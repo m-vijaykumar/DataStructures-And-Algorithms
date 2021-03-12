@@ -65,7 +65,7 @@ int main(){
     int *temp = mergeSort(arr,temp,0,n-1);
     for (int i = 0; i < n; i++)
     {
-        cout<<temp[i]<<" ";
+        cout<<arr[i]<<" ";
     }
     
     return 0;
