@@ -44,7 +44,6 @@ void quick(int arr[],int low, int high){
     }
     
 }
-
 int main(){
  
     int arr[5]={23,45,2,56,16};

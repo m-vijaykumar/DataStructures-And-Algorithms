@@ -13,6 +13,10 @@
 
     * Insertion Sort
 
+    * Merge Sort
+
+    * Quick Sort
+
     * Shell Sort 
 
 * Linked List
@@ -71,5 +75,3 @@
         * matrix Rotation
         
         * spiral Matrix
-
-
