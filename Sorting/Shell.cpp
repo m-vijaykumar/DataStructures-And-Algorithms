@@ -7,6 +7,6 @@ int shell(int arr[]){
 }
 int main(){
     
-     // need to be dome
+     int a[10] = {1,2,3,4,5,6,7,8};
     return 0;
 }
